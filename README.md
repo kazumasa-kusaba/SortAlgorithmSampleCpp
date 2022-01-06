@@ -4,5 +4,4 @@ Sample programs of sort algorithm by C++.
 ## Algorithms
 | Name                     | Time Complexity | Space Complexity |
 |--------------------------|-----------------|------------------|
-| [Quicksort](./quicksort) | *O(nlogn)*      | *O(log(n))*      |
-
+| [Quicksort](./quicksort) | *O(nlog(n))*    | *O(log(n))*      |
