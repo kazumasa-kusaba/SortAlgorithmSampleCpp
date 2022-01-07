@@ -35,7 +35,7 @@ void heap_sort(std::vector<int>& data)
 
   // sort
   for (int i = n; 2 <= i; i--) {
-    std::swap(data[1], data[n]);
+    std::swap(data[1], data[i]);
     down_heap(data, 1, i - 1);
   }
 }
