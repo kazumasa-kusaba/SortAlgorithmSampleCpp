@@ -1,6 +1,6 @@
-# Quicksort
-Time Complexity  : *O(nlogn)*  
-Space Complexity : *O(logn)*  
+# Quick Sort
+Time Complexity  : *O(nlog(n))*  
+Space Complexity : *O(log(n))*  
 
 ## How to Use
 ```console
@@ -14,3 +14,4 @@ Enter the values
 4: 3453
 0 1 3 23 3453
 ```
+
