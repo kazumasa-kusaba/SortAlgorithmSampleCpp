@@ -4,13 +4,12 @@
 void down_heap(std::vector<int>& data, int from, int to)
 {
   int i, j;
-  int n   = data.size();
   int val = data[from];
 
   i = from;
   while (i <= to / 2) {
-    j = j * 2;
-    if (j + 1 <= n && data[j + 1] < data[j]) {
+    j = i * 2;
+    if (j + 1 <= to && data[j + 1] < data[j]) {
       j += 1;
     }
 
@@ -22,7 +21,7 @@ void down_heap(std::vector<int>& data, int from, int to)
     i = j;
   }
 
-  data[j] = val;
+  data[i] = val;
 }
 
 void heap_sort(std::vector<int>& data)
