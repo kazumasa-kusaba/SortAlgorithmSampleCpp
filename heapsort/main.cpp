@@ -61,8 +61,8 @@ int main(void)
 
   heap_sort(data);
 
-  for (auto x: data) {
-    std::cout << x << " ";
+  for (int i = 1; i < data.size(); i++) {
+    std::cout << data[i] << " ";
   }
 
   return 0;
