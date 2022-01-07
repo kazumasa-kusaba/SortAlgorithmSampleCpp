@@ -1,6 +1,6 @@
-# Quick Sort
+# Heap Sort
 Time Complexity  : *O(nlog(n))*  
-Space Complexity : *O(log(n))*  
+Space Complexity : *O(1)*  
 
 ## How to Use
 ```console
@@ -12,6 +12,6 @@ Enter the values
 2: 1
 3: 0
 4: 3453
-0 1 3 23 3453
+3453 23 3 1 0
 ```
 
